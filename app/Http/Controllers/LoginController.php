@@ -15,6 +15,7 @@ class LoginController extends Controller
     }
     public function hdLogin(Request $rq)
     {
+
         try {
 
             $credentials = $rq->only('email', 'password');
